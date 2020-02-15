@@ -1,12 +1,17 @@
 import React from 'react'
 import Header from './Header'
+import heroLogo from '../assets/heroLogo.png'
 import './styles/App.scss'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
-      <p>I am Jonah's website.</p>
+      <div className="app-container">
+        <div id="hero-logo">
+          <img src={heroLogo}></img>
+        </div>
+      </div>
     </div>
   )
 }

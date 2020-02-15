@@ -2,17 +2,25 @@
 
 .header {
   background-color: $green;
-  color: $white;
-  font-family: 'Comic Sans MS';
-  font-size: 3.5rem;
-  height: 5.5rem;
+  color: $darkGrey;
+  font-family: sans-serif;
+  // height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: .5rem;
 }
 
 .header-item {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: flex-end;
+  * {
+    margin-left: 1rem;
+  }
+  img {
+    height: 3rem;
+    margin-left: 0;
+    align-self: center;
+  }
 }
